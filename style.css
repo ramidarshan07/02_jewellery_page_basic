@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+
+.banner {
+    background-image: url(/images/slider-bg.jpg);
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar h3 {
+    color: white;
+}
+.navbar img {
+    height: 50px;
+    width: 50px;
+}
+
+.middle  {
+    color: white;
+    width: 700px;
+    padding: 50px;
+    margin: 60px 0px 0px 100px;
+}
+
+.middle h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.middle p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.shop {
+    color: rgb(255, 145, 0);
+    border: 2px solid rgb(255, 145, 0);
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.text {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.card1{
+    background-image: url(/images/p1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card2{
+    background-image: url(/images/p2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card3{
+    background-image: url(/images/p3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card4{
+    background-image: url(/images/p4.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card5{
+    background-image: url(/images/p5.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card6{
+    background-image: url(/images/p6.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card7{
+    background-image: url(/images/p7.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card8{
+    background-image: url(/images/p8.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tex {
+    background-color: white;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pric {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.red {
+    color: orangered;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.product .btn button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.img-txt .txt-p button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.img-txt {
+    display: flex;
+}
+
+.img {
+    background-image: url(/images/about-img.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 700px;
+    position: relative;
+}
+
+.black-box {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
+    z-index: 1;
+}
+
+.txt-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.txt-p h2 {
+    font-size: 60px;
+}
+
+.txt-p p{
+    margin: 20px 0px;
+    width: 500px;
+    text-align: justify;
+}
+
+.txt-p button {
+    width: 150px;
+}
+
+.img-blc {
+    background-color: white;
+    padding: 30px;
+}
+
+.three-pic{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.onepic {
+    background-image: url(/images/o1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 500px;
+}
+
+.twopic {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.upper {
+    background-image: url(/images/o2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 245px;
+    position: relative;
+}
+
+.below {
+    background-image: url(/images/o3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 245px;
+    position: relative;
+}
+
+.three-pic h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.pos {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.pos2 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.textbbutton{
+    margin: 20px;
+}
